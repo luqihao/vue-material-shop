@@ -1,0 +1,33 @@
+/*init the style of the vue-paginate component*/
+ul.products {
+	clear: both;
+	padding-top: 20px;
+	font-family: "微软雅黑";
+	text-align: center;
+}
+ul.products>li{
+	padding: 10px;
+	display: inline;
+	cursor: pointer
+}
+ul.products>li>a {
+	font-size: 20px;
+}
+ul.products>li>a:hover {
+	color: #ee9db3;
+	font-weight: 700;
+	text-decoration: none;
+}
+ul.products>li.active>a{
+	color: #ee9db3;
+	font-size: 25px;
+	font-weight: 700;
+	text-decoration: underline;
+}
+ul.products>li.disabled>a {
+	color: rgba(0, 0, 0, 0.2);
+}
+ul.products>li.disabled>a:hover {
+	color: rgba(0, 0, 0, 0.2);
+	text-decoration: line-through;
+}
